@@ -643,9 +643,14 @@ body {
     box-sizing: border-box;
     display: block;
 }
-.form-plate h2 {
+.form-plate .form-title {
     margin-top: 40px;
     text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: var(--font-color-headers);
 }
 .form-plate-box {
     margin-top: 12px;
