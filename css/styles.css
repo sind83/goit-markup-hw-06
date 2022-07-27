@@ -702,8 +702,9 @@ body {
     border-radius: 3px;
     margin-right: 8px;
 }
-.form-icons-tick-box:hover {
-    cursor: pointer;
+.form-icons-tick-box:hover,
+.form-icons-tick-box:focus-within {
+    border-color: #2196f3;
 }
 .checkbox {
     position: absolute;
@@ -775,7 +776,9 @@ body {
     text-decoration: underline;
 }
 .form-link:hover,
-.form-agreement input:hover {
+.form-agreement input:hover,
+.form-link:focus,
+.form-agreement input:focus {
     cursor: pointer;
 }
 .form-plate-box-item:focus-within {
