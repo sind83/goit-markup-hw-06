@@ -525,6 +525,7 @@ body {
     position: absolute;
     background-color: rgba(33, 150, 243, 0.9);
     width: 370px;
+    height: 101%;
     top: 0px;
     justify-content: center;
     z-index: 2;
